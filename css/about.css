@@ -1,0 +1,21 @@
+/* .subsection {
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.subsection h1 {
+    font-family: 'Marck Script';
+    font-size: 40px;
+} */
+
+.learn-more {
+    background-color: #f8f8f8;
+}
+
+.learn-more p {
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    margin: 0px;
+}

@@ -1,0 +1,45 @@
+.row {
+    display: flex;
+    /* align-items: center; */
+}
+
+.column-1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.column-2 {
+    /* justify-content: center; */
+    width: 50%;
+    text-align: center;
+}
+
+.column-2 img {
+    width: 65%;
+    /* box-shadow: 2px 2px 5px #f8f8f8; */
+}
+
+.column-3 {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.grade-overview { 
+    background-color: #d4c7e7; 
+    margin: 30px 30px;
+}
+
+.grade-overview p {
+    font-size: 15px;
+    padding: 8px;
+    text-align: left;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 33px;
+    font-family: 'Marck Script';
+    margin: 1px;
+}

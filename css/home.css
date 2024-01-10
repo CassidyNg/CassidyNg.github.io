@@ -1,0 +1,139 @@
+/* #images {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+#images img {
+    width: 75%;
+    margin: 0;
+}
+
+#button-align {
+    display: flex;
+    justify-content: center;
+}
+
+#button-align button {
+    margin-right: 8.5em;
+    margin-left: 8.5em;
+}
+
+#overview {
+    display: flex;
+    justify-content: center;
+} */
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center img {
+    width: 75%;
+    margin: 15px;
+}
+
+.center button{
+    margin-right: 8.5em;
+    margin-left: 8.5em;
+}
+
+/* New Design */
+.row {
+    display: flex;
+}
+
+.column-1 {
+    float: left;
+    width: 25%;
+}
+
+.column-2 {
+    justify-content: center;
+    width: 37.5%;
+}
+
+.column-3 {
+    float: right;
+    width: 37.5%;
+}
+
+.column-2-title {
+    float: right;
+    width: 75%
+}
+
+.page-overview {
+    background-color: #f8f8f8;
+    /* text-align: center; */
+    margin: 10px 70px;
+}
+
+/* .page-overview h1{
+    font-size: 20px;
+    color: #a297c3;
+    font-family: 'Marck Script';
+    text-align: center;
+    margin: 0px;
+} */
+
+.page-overview p {
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    margin: 0px;
+}
+
+.page-overview img {
+    width: 100%;
+}
+
+.title-1{
+    position: relative;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.title-1 img{
+    width: 75%;
+    height: 40px;
+}
+
+.title-2{
+    position: relative;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.title-2 img{
+    width: 85%;
+    height: 40px;
+}
+
+/* .title-1 h1 {
+    font-size: 33px;
+    font-family: 'Marck Script';
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-2 h1 {
+    font-size: 33px;
+    font-family: 'Marck Script';
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+h1 {
+    font-size: 33px;
+    font-family: 'Marck Script';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
