@@ -45,9 +45,39 @@
                     </p>
                 </div>
             </div>
-    
+
             <div class="column-2">
-                <img src="css/images/computer-screen.png">
+                <div class="slideshow-container">
+                    <img class="screen" src="css/images/computer-screen.png">
+
+                    <!-- <div class="slides fade">
+                        <img src="css/images/drone.JPG" title="Drone">
+                        <div class="caption">Insert Caption</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="css/images/trunkortreat.jpg" title="Trunk or Treat">
+                        <div class="caption">Insert Caption</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="css/images/sotechnight.jpg" title="SO Tech Night">
+                        <div class="caption">Insert Caption</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="css/images/codecon.jpg" title="Code Con">
+                        <div class="caption">Insert Caption</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="css/images/projectinvent.jpg" title="Project Invent">
+                        <div class="caption">Insert Caption</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a> -->
+                </div>
             </div>
     
             <div class="column-3">
@@ -65,5 +95,53 @@
                 </div>
             </div>
         </div>
+
+        <!-- <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script> -->
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("slides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+            </script>
     </body>
 </html>

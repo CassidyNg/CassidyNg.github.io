@@ -34,21 +34,30 @@
 .column-1 {
     float: left;
     width: 45%;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .column-2 {
     float: right;
     width: 45%;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
-h1 {
+.subsection {
+    background-color: #d4c7e7;
+}
+
+.subsection h1 {
     font-family: 'Marck Script';
     font-size: 45px;
+    padding: 10px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-p {
+.subsection p {
     margin-top: 2px;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 0px;
 }

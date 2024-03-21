@@ -19,3 +19,12 @@
     text-align: left;
     margin: 0px;
 }
+
+.about-me {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.about-me img {
+    float: right;
+}
